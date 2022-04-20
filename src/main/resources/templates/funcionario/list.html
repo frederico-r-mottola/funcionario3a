@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../bootstrap-5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-5.15.3/css/all.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Gerencia de Projetos</title>
+   
+</head>
+<body>
+    <header >
+        <h3>Gerencia de Projetos</h3>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/funcionario/list">Funcionario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sobre">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+<div class="table-responsive">
+  <div class="div-tittle">
+    <h2>Tabela de Funcionarios</h2>
+  </div>
+        <table class="table table-hover">
+          <thead class="table-danger">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Cargo</th>
+              <th scope="col">Telefone</th>
+              <th scope="col">Email</th>
+              <th scope="col" colspan="2">
+                <a href=""><i class="fas fa-plus-circle">Adicionar</a></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Frederico Renan</td>
+              <td>Dev Jr</td>
+              <td>(48)9999 12345</td>
+              <td>mark@gmail.com</td>
+              <td scope="col"><a class="a-edit" href="./edit/1"><i class="fa fa-edit"></i></a></td>
+              <td scope="col"><a class="a-delete" href="./delete/1"><i class="fa fa-trash"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Administrador</td>
+              <td>(48)9999 54321</td>
+              <td>jacob@gmail.com</td>
+              <td scope="col"><a class="a-edit" href="./edit/2"><i class="fa fa-edit"></i></a></td>
+              <td scope="col"><a class="a-delete" href="./delete/2"><i class="fa fa-trash"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>Dev Master</td>
+              <td>(48)9999 23445</td>
+              <td>Larry@gmail.com</td>
+              <td scope="col"><a class="a-edit" href="./edit/3"><i class="fa fa-edit"></i></a></td>
+              <td scope="col"><a class="a-delete" href="./delete/3"><i class="fa fa-trash"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+     
+        
+    <div class="localizacao"></div>
+    <footer>
+        <ul>
+            <li>Localização :</li>
+            <li>SENAI CTAI</li>
+            <li>Rodovia, SC-402,3832 - Saco Grande,Florianópolis - SC, 880424-214</li>
+            <li>(48) 3148-3832</li>
+        </ul>
+        <div class="contato">
+          <h5>Contatos :</h5>
+          <ul>
+          
+              <li>frederico_r_mottola@estudante.sc.senai.br</li>
+              <li>(48) 3123-32</li>
+          </ul>
+      </div>
+
+    </footer>
+
+
+
+    
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../bootstrap-5.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
